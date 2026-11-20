@@ -1,0 +1,7 @@
+{
+  "name": "browser-worker",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "features": {},
+  "postCreateCommand": "sudo apt-get update -qq && sudo apt-get install -y -qq chromium-browser fonts-liberation >/dev/null 2>&1 || (sudo apt-get install -y -qq chromium >/dev/null 2>&1); echo done",
+  "remoteUser": "vscode"
+}
