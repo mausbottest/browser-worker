@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-21T17:17:13Z",
+  "ok": true,
+  "step": "status",
+  "claimed": false,
+  "note": "waiting: pool_empty",
+  "free_tier": {
+    "gate_enabled": false,
+    "unlocked": false,
+    "has_free_server": false,
+    "can_claim": false,
+    "claim_blocked_reason": "pool_empty",
+    "signup_code_failed": false,
+    "hold": null
+  },
+  "computers": []
+}
